@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./DuckClass.js"></script>
+    <style>
+      .btn {
+        margin: 15px;
+        float: left;
+      }
+      #Quack {
+        display: none;
+      }
+      #ShowDuck {
+        display: none;
+      }
+    </style>
+    <title>Q2 - Duck</title>
+  </head>
+
+  <body>
+    <div>
+      <div class="col-12">
+        <label for="DuckName" class="form-label">Duck Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="DuckName"
+          aria-describedby="DuckName"
+        />
+      </div>
+      <div class="col-12">
+        <label for="DuckAge" class="form-label">Duck Age</label>
+        <input type="text" class="form-control" id="DuckAge" />
+      </div>
+      <div class="col-12">
+        <label for="DuckColor" class="form-label">Duck Color</label>
+        <input type="text" class="form-control" id="DuckColor" />
+      </div>
+      <div class="col-12">
+        <label for="DuckWeight" class="form-label">Duck Weight</label>
+        <input type="text" class="form-control" id="DuckWeight" />
+      </div>
+      <div class="col-12">
+        <label for="DuckPhoto" class="form-label">Duck Photo</label>
+        <input type="text" class="form-control" id="DuckPhoto" />
+      </div>
+      <br />
+      <div class="col-12" id="ph"></div>
+      <br />
+
+      <div class="col-12">
+        <button id="CreateDuck" type="submit" class="btn btn-primary">
+          Create Duck
+        </button>
+      </div>
+
+      <div class="col-12">
+        <button id="ShowDuck" type="submit" class="btn btn-success">
+          Show
+        </button>
+      </div>
+      <div class="col-12">
+        <button id="Quack" type="submit" class="btn btn-danger">Quack</button>
+      </div>
+    </div>
+
+    <div class="col-12" id="Qph"></div>
+
+    <br />
+  </body>
+</html>

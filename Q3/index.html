@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./Clock.js"></script>
+
+    <style>
+      .btn {
+        margin: 15px;
+      }
+    </style>
+
+    <title>Q3 - Clock</title>
+  </head>
+  <body>
+    <div class="col-12">
+      <label for="HourInput" class="form-label">Hour</label>
+      <input
+        type="text"
+        class="form-control"
+        id="HourInput"
+        aria-describedby="HourInput"
+      />
+    </div>
+    <div class="col-12">
+      <label for="MinutesInput" class="form-label">Minutes</label>
+      <input
+        type="text"
+        class="form-control"
+        id="MinutesInput"
+        aria-describedby="MinutesInput"
+      />
+    </div>
+    <div class="col-12">
+      <label for="SecondsInput" class="form-label">Seconds</label>
+      <input
+        type="text"
+        class="form-control"
+        id="SecondsInput"
+        aria-describedby="SecondsInput"
+      />
+    </div>
+    <div class="col-12">
+      <label for="CountryInput" class="form-label">Country</label>
+      <input
+        type="text"
+        class="form-control"
+        id="CountryInput"
+        aria-describedby="CountryInput"
+      />
+    </div>
+
+    <br />
+    <div id="ph"></div>
+    <br />
+
+    <div class="col-12">
+      <button id="SubmitBtn" type="submit" class="btn btn-primary">
+        submit
+      </button>
+    </div>
+  </body>
+</html>
